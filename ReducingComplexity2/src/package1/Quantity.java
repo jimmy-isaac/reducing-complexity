@@ -21,11 +21,10 @@ public class Quantity {
 		return units;
 	}
 
+	
 	public BigDecimal toReferenceUnits() {
 		return quantity.multiply(units.getToReferenceUnitMultiplier());
 	}
-
-	 
 
 	
 	

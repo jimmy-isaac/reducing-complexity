@@ -37,5 +37,9 @@ It also includes the quantity being sold. The intent of this project is to show 
 **Quantity**. Models quantity. Again like UnitPrice, this class includes a numeric quantity, and the units, which in 99% of the cases would be count, but could be a measure of weight or length. Just because 99% of the products are using count, by generalizing Quantity, the accidental complexity of conditional statements because of this is avoided.
 
 
+# Next Steps
+This project illustrates the use of the strategy pattern to reduce conditional statements, but using only a single entity **Unit**. In the following project, another entity, **Company** is added, where Company has a primary Unit. The primary Unit is to be used for displaying **Quantity** and **Unit Sale Price**.
+The intent of the next project, to see how the code scales for complexity, when multiple conditions exist.
+
 # Caveat
 This is not a full-fledged application. Hence only some of the units are defined. Also, a few test invocations are included in the SaleLineItem class, but no unit tests have been written.

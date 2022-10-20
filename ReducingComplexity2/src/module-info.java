@@ -5,5 +5,5 @@
  * @author Jimmy Isaac
  *
  */
-module ReducingComplexity1 {
+module ReducingComplexity2 {
 }
