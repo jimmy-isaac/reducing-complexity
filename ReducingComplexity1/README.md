@@ -39,4 +39,3 @@ It also includes the quantity being sold. The intent of this project is to show 
 
 # Caveat
 This is not a full-fledged application. Hence only some of the units are defined. Also, a few test invocations are included in the SaleLineItem class, but no unit tests have been written.
-
